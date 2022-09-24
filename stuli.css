@@ -1,0 +1,136 @@
+h2 {
+	color: black;
+	
+	font-size: 45px
+	
+}
+p{
+	
+	font-family:future;
+}
+#FST{
+	color:white;
+	text-align:justify;
+	background-color:blue;
+	
+}
+
+
+.myDiv{
+	color:aqua;
+	text-align:justify;
+	background-color:black;
+}
+#int{
+	padding:40px;
+	color:black;
+	font-weight:bold;
+}
+#intr{
+	paddind:25px;
+	background-color:aqua;
+	color:black;
+	text-align:justify;
+	font-size:20px;
+	
+}
+#intr2{
+	padding-top:40px;
+	
+	background-color:BROWN;
+	color:aqua;
+	text-align:justify;
+	font-size:20px;
+	
+}
+#lr{
+	padding-top:15px;
+	background-color:yellow;
+	color:black;
+	text-align:justify;
+	font-size:20px;
+	float:left;
+	width:650px;
+	border: 3px solid black;
+	
+}
+
+#hgs{
+	float:right;
+	padding-top:10px;
+	background-color:#EA3B52;
+	color:black;
+	text-align:justify;
+	font-size:20px;
+	font-family:active;
+	width:650px;
+	border:3px solid blue;
+}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:dodgerblue;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: green;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+body {
+  background-image: url('t2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  margin:20px;
+}
+  
+   
+
