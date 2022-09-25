@@ -10,7 +10,7 @@ p{
 }
 #FST{
 	color:black;
-	text-align:justify;
+	text-align:left;
 	background-color:grey;
 	
 }
@@ -23,7 +23,7 @@ p{
 
 .myDiv{
 	color:white;
-	text-align:justify;
+	text-align:left;
 	background-color:black;
 }
 #int{
@@ -35,7 +35,7 @@ p{
 	paddind:25px;
 	background-color:white;
 	color:black;
-	text-align:justify;
+	text-align:left;
 	font-size:20px;
 	
 }
@@ -44,7 +44,7 @@ p{
 	
 	background-color:BROWN;
 	color:aqua;
-	text-align:justify;
+	text-align:left;
 	font-size:20px;
 	
 }
@@ -59,7 +59,7 @@ p{
 	padding-top:15px;
 	background-color:yellow;
 	color:black;
-	text-align:justify;
+	text-align:left;
 	font-size:20px;
 	float:left;
 	width:650px;
